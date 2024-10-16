@@ -3,7 +3,7 @@ export default function Header() {
     const navItem = [
         {
             label: "Home",
-            href: "conatct"
+            href: "/"
         },
         {
             label: "Portfolio",
@@ -17,18 +17,12 @@ export default function Header() {
             label: "About",
             href: "/"
         },
-        {
-            label: "Home",
-            href: "/"
-        },
-        {
-            label: "Home",
-            href: "/"
-        },
+       
+        
     ]
 
   return (
-    <>
+ 
 <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -82,6 +76,6 @@ export default function Header() {
 
 
 
-    </>
+    
   )
 }
