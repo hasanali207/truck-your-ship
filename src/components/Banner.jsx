@@ -7,10 +7,7 @@ export default function Banner() {
     
 
     <Carousel>
-    <div>
-        <img src="assets/1.jpeg" />
-        <p className="legend">Legend 1</p>
-    </div>
+   
     
     <div>
         <img src="assets/3.jpeg" />
